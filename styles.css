@@ -1,0 +1,89 @@
+.iframe-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+
+video {
+  max-width: 80%; /* Optional: Limit the video width */
+  height: auto; /* Optional: Maintain aspect ratio */
+}
+
+
+.text-center {
+  position: relative; /* Set the parent element to relative positioning */
+}
+
+button {
+  position: absolute; /* Position the button absolutely within the parent */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust positioning if needed */
+}
+
+ /* Add WA floating button CSS */
+ .floating {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 60px;
+  right: 40px;
+  background-color: #25d366;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
+ }
+ 
+ .fab-icon {
+  margin-top: 16px;
+ }
+
+
+
+#properties {
+  padding-left: 10px;
+}
+
+
+.navbar-brand {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+.slider {
+  aspect-ratio: 90 / 40;
+  width: auto;
+  position: relative;
+  display: flex;
+  overflow: scroll;
+}
+
+.slider img {
+
+  width: 100%;
+  left: 0;
+  position: sticky;
+  object-fit: cover;
+  border-radius: 5px;
+  scroll-snap-align: center;
+flex-shrink: 0;
+
+
+}
+
+
+
+
+
+
+
